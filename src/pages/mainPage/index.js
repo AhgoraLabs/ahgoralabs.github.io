@@ -11,6 +11,7 @@ import Nightly from "../../components/Nightly";
 import HourCalculator from "../../components/HourCalculator";
 
 //pages
+import CicleBank from "../../pages/bankCycle"
 import HoursConverter from "../../pages/hoursConverter";
 import MultiplyingFactor from "../../pages/multiplyingFactor";
 import HoursCalculator from "../../pages/hoursCalculator";
@@ -42,6 +43,7 @@ const IndexPage = () => {
         2: <HoursConverter />,
         3: <MultiplyingFactor />,
         4: <TimelineParser />,
+        5: <CicleBank />
     };
 
     const classes = useStyles();
@@ -57,6 +59,7 @@ const IndexPage = () => {
                     <Tab label="Conversor" />
                     <Tab label="Fator Multiplicador" />
                     <Tab label="Timeline Parser" />
+                    <Tab label="Banco de Horas" />
                 </Tabs>
             </Paper>
             <div style={{ paddingTop: 49 }}>{tabChooser[value]}</div>
