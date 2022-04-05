@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ahgorautilitarios/static/js/main.8023c00d.chunk.js",
-    "main.js.map": "/ahgorautilitarios/static/js/main.8023c00d.chunk.js.map",
-    "runtime-main.js": "/ahgorautilitarios/static/js/runtime-main.8e00a14c.js",
-    "runtime-main.js.map": "/ahgorautilitarios/static/js/runtime-main.8e00a14c.js.map",
-    "static/js/2.848ed186.chunk.js": "/ahgorautilitarios/static/js/2.848ed186.chunk.js",
-    "static/js/2.848ed186.chunk.js.map": "/ahgorautilitarios/static/js/2.848ed186.chunk.js.map",
-    "static/js/3.e9f0179c.chunk.js": "/ahgorautilitarios/static/js/3.e9f0179c.chunk.js",
-    "static/js/3.e9f0179c.chunk.js.map": "/ahgorautilitarios/static/js/3.e9f0179c.chunk.js.map",
-    "index.html": "/ahgorautilitarios/index.html",
-    "static/js/2.848ed186.chunk.js.LICENSE.txt": "/ahgorautilitarios/static/js/2.848ed186.chunk.js.LICENSE.txt"
+    "main.js": "/AhgoraUtilitarios/static/js/main.35833f15.chunk.js",
+    "main.js.map": "/AhgoraUtilitarios/static/js/main.35833f15.chunk.js.map",
+    "runtime-main.js": "/AhgoraUtilitarios/static/js/runtime-main.8181dc13.js",
+    "runtime-main.js.map": "/AhgoraUtilitarios/static/js/runtime-main.8181dc13.js.map",
+    "static/js/2.c21a7b1c.chunk.js": "/AhgoraUtilitarios/static/js/2.c21a7b1c.chunk.js",
+    "static/js/2.c21a7b1c.chunk.js.map": "/AhgoraUtilitarios/static/js/2.c21a7b1c.chunk.js.map",
+    "static/js/3.e9f0179c.chunk.js": "/AhgoraUtilitarios/static/js/3.e9f0179c.chunk.js",
+    "static/js/3.e9f0179c.chunk.js.map": "/AhgoraUtilitarios/static/js/3.e9f0179c.chunk.js.map",
+    "index.html": "/AhgoraUtilitarios/index.html",
+    "static/js/2.c21a7b1c.chunk.js.LICENSE.txt": "/AhgoraUtilitarios/static/js/2.c21a7b1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e00a14c.js",
-    "static/js/2.848ed186.chunk.js",
-    "static/js/main.8023c00d.chunk.js"
+    "static/js/runtime-main.8181dc13.js",
+    "static/js/2.c21a7b1c.chunk.js",
+    "static/js/main.35833f15.chunk.js"
   ]
 }
