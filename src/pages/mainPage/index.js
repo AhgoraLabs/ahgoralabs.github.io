@@ -15,6 +15,7 @@ import CicleBank from "../../pages/bankCycle"
 import HoursConverter from "../../pages/hoursConverter";
 import MultiplyingFactor from "../../pages/multiplyingFactor";
 import HoursCalculator from "../../pages/hoursCalculator";
+import About from "../../pages/about";
 
 const useStyles = makeStyles({
     root: {
@@ -43,7 +44,8 @@ const IndexPage = () => {
         2: <HoursConverter />,
         3: <MultiplyingFactor />,
         4: <TimelineParser />,
-        5: <CicleBank />
+        5: <CicleBank />,
+        6: <About />
     };
 
     const classes = useStyles();
@@ -60,6 +62,7 @@ const IndexPage = () => {
                     <Tab label="Fator Multiplicador" />
                     <Tab label="Timeline Parser" />
                     <Tab label="Banco de Horas" />
+                    <Tab label="Sobre a calculadora" />
                 </Tabs>
             </Paper>
             <div style={{ paddingTop: 49 }}>{tabChooser[value]}</div>
