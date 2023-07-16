@@ -25,7 +25,7 @@ const HoursConverter = () => {
                 </div>
                 <div>
                     <div>
-                        <h2>Valor em Cetesimal </h2>
+                        <h2>Valor em Centesimal </h2>
                         <InputMask onChange={(e) => handleChangeCentesimal(e)} mask="99.99"></InputMask>
                     </div>
                     <div>
