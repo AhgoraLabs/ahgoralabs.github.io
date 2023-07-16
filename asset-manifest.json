@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/AhgoraUtilitarios/static/js/main.2a605db7.chunk.js",
-    "main.js.map": "/AhgoraUtilitarios/static/js/main.2a605db7.chunk.js.map",
+    "main.js": "/AhgoraUtilitarios/static/js/main.3893e46f.chunk.js",
+    "main.js.map": "/AhgoraUtilitarios/static/js/main.3893e46f.chunk.js.map",
     "runtime-main.js": "/AhgoraUtilitarios/static/js/runtime-main.8181dc13.js",
     "runtime-main.js.map": "/AhgoraUtilitarios/static/js/runtime-main.8181dc13.js.map",
     "static/js/2.bddad3c4.chunk.js": "/AhgoraUtilitarios/static/js/2.bddad3c4.chunk.js",
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.8181dc13.js",
     "static/js/2.bddad3c4.chunk.js",
-    "static/js/main.2a605db7.chunk.js"
+    "static/js/main.3893e46f.chunk.js"
   ]
 }
