@@ -43,9 +43,8 @@ const IndexPage = () => {
         1: <Nightly nightlyTime={nightlyTime} setTime={setNightlyTime} result={resultNightly} calc={calcNightly} remove={calcRemoveNightlyFactor} />,
         2: <HoursConverter />,
         3: <MultiplyingFactor />,
-        4: <TimelineParser />,
-        5: <CicleBank />,
-        6: <About />
+        4: <CicleBank />,
+        5: <About />
     };
 
     const classes = useStyles();
@@ -60,7 +59,6 @@ const IndexPage = () => {
                     <Tab label="Adicional Noturno" />
                     <Tab label="Conversor" />
                     <Tab label="Fator Multiplicador" />
-                    <Tab label="Timeline Parser" />
                     <Tab label="Banco de Horas" />
                     <Tab label="Sobre a calculadora" />
                 </Tabs>

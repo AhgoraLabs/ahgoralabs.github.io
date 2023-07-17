@@ -5,6 +5,8 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     color: #676767;
+    width: 80%;
+    margin: auto;
     margin-top: 30px;
     flex-direction: column;
 
@@ -32,4 +34,9 @@ export const Container = styled.div`
         margin-bottom: 20px;
         height: 50px;
     }
+`
+
+export const Paragraph = styled.p`
+    text-align: left;
+    font-size: 20px;
 `

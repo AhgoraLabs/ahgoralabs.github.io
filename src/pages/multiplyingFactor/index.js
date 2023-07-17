@@ -2,7 +2,7 @@ import Button from "@material-ui/core/Button";
 import React, { useState } from "react";
 import InputMask from "react-input-mask";
 import { removeUnderline, secondsToHoursAndMinutes } from "../../helper/calculator";
-import { Container } from "./style.js";
+import { Container, Paragraph } from "./style.js";
 
 const MultiplyingFactor = () => {
     const [bancoDeHoras, setBancoDeHoras] = useState();
@@ -39,6 +39,13 @@ const MultiplyingFactor = () => {
                 Multiplicar
             </Button>
             <p>*Multiplique o banco pelo fator multiplicador</p>
+
+            <br/>
+            <Paragraph>
+O fator multiplicador é um elemento crucial no cálculo do banco de horas. Ele é usado para determinar o valor das horas extras trabalhadas em relação às horas normais de trabalho. Por exemplo, a legislação trabalhista brasileira estabelece que as primeiras duas horas extras trabalhadas devem ser pagas com um acréscimo de 50% sobre o valor da hora normal, e as horas extras além dessas devem ser pagas com um acréscimo de 100%. Isso significa que o fator multiplicador para as primeiras duas horas extras é 1,5 (ou 150%), e para as horas extras além dessas é 2 (ou 200%). Portanto, se um trabalhador que recebe R$20,00 por hora trabalha 3 horas extras, as duas primeiras horas extras serão pagas a R$30,00 cada (R$20,00 * 1,5) e a terceira hora extra será paga a R$40,00 (R$20,00 * 2). O fator multiplicador é uma ferramenta importante para garantir que os trabalhadores sejam justamente compensados pelas horas extras que trabalham.
+</Paragraph>
+
+
         </Container>
     );
 };

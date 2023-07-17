@@ -5,6 +5,8 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     color: #676767;
+    width: 80%; // Ajuste este valor conforme necessário
+    margin: auto;
     margin-top: 30px;
     flex-direction: column;
 
