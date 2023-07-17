@@ -25,6 +25,7 @@ export const Container = styled.div`
                 margin-left: 40px;
                 font-size: 20px;
                 text-align: center;
+                width: 200px; // Adicione uma largura fixa aqui
             }
         }
     }
