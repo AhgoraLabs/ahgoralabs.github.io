@@ -1,10 +1,11 @@
-import { Button, TextField } from "@material-ui/core";
+import { Button, TextField, useMediaQuery  } from "@material-ui/core";
 import { useRef, useState } from "react";
 import { decreaseHoursAndMinutes, sumHoursAndMinutes } from '../../helper/calculator';
 import { Container, Modal } from "./styles";
 
 function HoursCalculator() {
     const [numberOfInputs, setNumberOfInputs] = useState(2);
+    const isSmallScreen = useMediaQuery('(max-width:600px)'); // returns true if screen width is 600px or less
     const [result, setResult] = useState({hours: '', minutes: ''})
 
     const hoursInputRef = useRef(new Array());
@@ -26,7 +27,7 @@ function HoursCalculator() {
     };
 
     return (
-        <Container>
+        <Container style={{ marginTop: isSmallScreen ? '60%' : 0 }}> {/* Add margin-top here */}
             <h1>Calculadora de Horas</h1>
             <Modal>
                 <div id="div-addNewButtons">

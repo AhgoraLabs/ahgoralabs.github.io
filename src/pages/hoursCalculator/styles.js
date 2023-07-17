@@ -34,6 +34,12 @@ export const Modal = styled.div`
         align-items: center;
         justify-content: center;
         justify-content: space-around;
+        @media (max-width: 600px) {
+            flex-direction: column;
+            button {
+                margin-bottom: 10px;
+            }
+        }
     }
 
     #div-all-input-hours {
@@ -48,6 +54,12 @@ export const Modal = styled.div`
             input {
                 background-color: white;
             }
+            @media (max-width: 600px) {
+                flex-direction: column;
+                input {
+                    margin-bottom: 10px;
+                }
+            }
         }
     }
 
@@ -57,6 +69,12 @@ export const Modal = styled.div`
         align-items: center;
         justify-content: space-around;
         width: 70%;
+        @media (max-width: 600px) {
+            flex-direction: column;
+            button {
+                margin-bottom: 10px;
+            }
+        }
     }
 
     #div-results {
@@ -68,5 +86,11 @@ export const Modal = styled.div`
         input {
             background-color: ghostwhite;
         }
+        @media (max-width: 600px) {
+            flex-direction: column;
+            input {
+                margin-bottom: 10px;
+            }
+        
     }
 `;
