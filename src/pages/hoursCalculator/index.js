@@ -32,7 +32,7 @@ function HoursCalculator() {
             <Modal>
                 <div id="div-addNewButtons">
                 <Button style={{ backgroundColor: "#a2cf6e", color: "white", minWidth: 147 }} onClick={handleAddNewInputs} variant="contained">+</Button>
-<Button style={{ backgroundColor: "tomato", color: "white", minWidth: 147, fontSize: '0.8rem' }} onClick={handleRemoveLastInput} variant="contained">Limpar campos</Button>
+                <Button style={{ backgroundColor: "tomato", color: "white", minWidth: 147, fontSize: '0.8rem' }} onClick={handleRemoveLastInput} variant="contained">Limpar campos</Button>
 
 
                 </div>

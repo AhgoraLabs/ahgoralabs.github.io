@@ -12,6 +12,9 @@ export const Container = styled.div`
 export const Modal = styled.div`
     display: flex;
     align-items: center;
+    @media (max-width: 600px) {
+        width: 80vw;
+    }
     justify-content: center;
     flex-direction: column;
     width: 40vw;
