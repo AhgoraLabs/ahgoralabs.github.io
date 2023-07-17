@@ -50,7 +50,6 @@ const IndexPage = () => {
         2: <HoursConverter />,
         3: <MultiplyingFactor />,
         4: <CicleBank />,
-        5: <About />
     };
 
     const classes = useStyles();
@@ -77,9 +76,6 @@ const IndexPage = () => {
                     </Grid>
                     <Grid item xs={12} sm={2}>
                         <Tab className={classes.tab} label="Banco de Horas" onClick={() => handleChange(4)} />
-                    </Grid>
-                    <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Sobre a calculadora" onClick={() => handleChange(5)} />
                     </Grid>
                 </Grid>
                 </Container>
