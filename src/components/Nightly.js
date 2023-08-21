@@ -78,8 +78,10 @@ const NightlyFactor = ({nightlyTime, setTime, calc, result, remove}) => {
                  cols='100'
                  rows='10'
                  value={
-                     Object.keys(result).length ? `O resultado da operação é ${result.hours.toString().padStart(2, 0)}:${result.minutes.toString().padStart(2, 0)}` : ''
-                 }
+                    result && Object.keys(result).length
+                        ? `O resultado da operação é ${result.hours.toString().padStart(2, 0)}:${result.minutes.toString().padStart(2, 0)}`
+                        : ''
+                }
             />
             <ContainerRow>
                 <Button style={{marginRight: 20}} variant="contained" color="primary" onClick={calc}>
