@@ -4,7 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import Tab from "@material-ui/core/Tab";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 //components
 import TimelineParser from "../../components/TimelineParser";
@@ -34,24 +34,24 @@ const IndexPage = () => {
     };
 
     return (
-        <BrowserRouter>
+        <Router>
             <Paper className={classes.root} style={{ position: "fixed", width: "100vw", zIndex: 1 }}>
                 <Container> 
                 <Grid container>
                     <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Calculadora" onClick={() => handleChange("/calculadora")} />
+                        <Tab className={classes.tab} label="Calculadora" onClick={() => handleChange("/#/calculadora")} />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Adicional Noturno" onClick={() => handleChange("/adicional-noturno")} />
+                        <Tab className={classes.tab} label="Adicional Noturno" onClick={() => handleChange("/#/adicional-noturno")} />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Conversor" onClick={() => handleChange("/conversor")} />
+                        <Tab className={classes.tab} label="Conversor" onClick={() => handleChange("/#/conversor")} />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Fator Multiplicador" onClick={() => handleChange("/fator-multiplicador")} />
+                        <Tab className={classes.tab} label="Fator Multiplicador" onClick={() => handleChange("/#/fator-multiplicador")} />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <Tab className={classes.tab} label="Banco de Horas" onClick={() => handleChange("/banco-de-horas")} />
+                        <Tab className={classes.tab} label="Banco de Horas" onClick={() => handleChange("/#/banco-de-horas")} />
                     </Grid>
                 </Grid>
                 </Container>
@@ -66,7 +66,7 @@ const IndexPage = () => {
                     <Route path="/banco-de-horas" element={<CicleBank />} />
                 </Routes>
             </div>
-        </BrowserRouter>
+        </Router>
     );
 };
 
